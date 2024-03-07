@@ -39,7 +39,7 @@ const MenuButton = () => {
         <ul
           className={`bg-[#333333a2] flex flex-col fixed top-[80px] transition-all ease-in-out w-1/2  gap-20 p-5 text-white align-middle
       
-          ${isOpen ? "opacity-100 h-full" : "opacity-0 h-0"}`}
+          ${isOpen ? "opacity-100 h-fit" : "opacity-0 h-0 hidden"}`}
         >
           <li className="self-center">
             <Link className="hover:underline focus:underline" href="/">
@@ -64,7 +64,7 @@ const MenuButton = () => {
         </ul>
       </div>
 
-      <ul className="h-0 opacity-0 w-0 xl:w-full xl:h-auto xl:opacity-100 flex flex-row gap-20 ">
+      <ul className="h-0 hidden opacity-0 w-0 xl:w-full xl:h-auto xl:opacity-100 xl:flex flex-row gap-20 ">
         <li className="">
           <Link className="hover:underline focus:underline" href="/">
             Αρχική
