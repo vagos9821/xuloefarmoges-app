@@ -42,32 +42,48 @@ const MenuButton = () => {
           ${isOpen ? "opacity-100 h-full" : "opacity-0 h-0"}`}
         >
           <li className="self-center">
-            <Link href="/">Αρχική</Link>
+            <Link className="hover:underline focus:underline" href="/">
+              Αρχική
+            </Link>
           </li>
           <li className="self-center">
-            <Link href="#">Για εμάς</Link>
+            <Link className="hover:underline focus:underline" href="about-us">
+              Για εμάς
+            </Link>
           </li>
           <li className="self-center">
-            <Link href="#">Έργα</Link>
+            <Link className="hover:underline focus:underline" href="#">
+              Έργα
+            </Link>
           </li>
           <li className="self-center">
-            <Link href="contact-us">Επικοινωνία</Link>
+            <Link className="hover:underline focus:underline" href="contact-us">
+              Επικοινωνία
+            </Link>
           </li>
         </ul>
       </div>
 
       <ul className="h-0 opacity-0 w-0 xl:w-full xl:h-auto xl:opacity-100 flex flex-row gap-20 ">
         <li className="">
-          <Link href="/">Αρχική</Link>
+          <Link className="hover:underline focus:underline" href="/">
+            Αρχική
+          </Link>
         </li>
         <li className="">
-          <Link href="#">Για εμάς</Link>
+          <Link className="hover:underline focus:underline" href="about-us">
+            Για εμάς
+          </Link>
         </li>
         <li className="">
-          <Link href="#">Έργα</Link>
+          <Link className="hover:underline focus:underline" href="#">
+            Έργα
+          </Link>
         </li>
         <li className="">
-          <Link href="contact-us">Επικοινωνία</Link>
+          <Link className="hover:underline focus:underline" href="contact-us">
+            Επικοινωνία
+          </Link>
         </li>
       </ul>
     </div>

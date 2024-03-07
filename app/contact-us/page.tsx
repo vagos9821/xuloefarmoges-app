@@ -47,6 +47,9 @@ const page = () => {
         </div>
         <EmailForm />
       </div>
+      <div className="self-center pb-10">
+        <img src="message.svg" alt="" />
+      </div>
       {/* <Map /> */}
     </div>
   );

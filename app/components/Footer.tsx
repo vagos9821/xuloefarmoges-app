@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="/">Αρχική</a>
           </li>
           <li className="self-center">
-            <a href="#">Για εμάς</a>
+            <a href="about-us">Για εμάς</a>
           </li>
           <li className="self-center">
             <a href="#">Έργα</a>
