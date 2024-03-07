@@ -1,6 +1,6 @@
 import React from "react";
 import EmailForm from "../components/EmailForm";
-import Map from "../components/Map";
+// import Map from "../components/Map";
 
 const page = () => {
   return (
@@ -47,7 +47,7 @@ const page = () => {
         </div>
         <EmailForm />
       </div>
-      <Map />
+      {/* <Map /> */}
     </div>
   );
 };
