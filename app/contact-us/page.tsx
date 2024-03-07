@@ -1,6 +1,12 @@
 import React from "react";
 import EmailForm from "../components/EmailForm";
+import { Metadata } from "next";
 // import Map from "../components/Map";
+
+export const metadata: Metadata = {
+  title: "Ξυλοεφαρμογές - Επικοινωνία",
+  description: "Ξυλοεφαρμογές - Επικοινωνία",
+};
 
 const page = () => {
   return (

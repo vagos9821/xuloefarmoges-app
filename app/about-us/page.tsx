@@ -1,5 +1,12 @@
+import { Metadata } from "next";
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Ξυλοεφαρμογές - Για εμάς",
+  description: "Ξυλοεφαρμογές - Για εμάς",
+};
 
 const page = () => {
   return (
