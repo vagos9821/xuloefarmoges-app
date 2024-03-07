@@ -29,7 +29,7 @@ const Footer = () => {
             <a href="about-us">Για εμάς</a>
           </li>
           <li className="self-center">
-            <a href="#">Έργα</a>
+            <a href="projects">Έργα</a>
           </li>
           <li className="self-center">
             <Link href="/contact-us">Επικοινωνία</Link>

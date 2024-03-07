@@ -52,7 +52,7 @@ const MenuButton = () => {
             </Link>
           </li>
           <li className="self-center">
-            <Link className="hover:underline focus:underline" href="#">
+            <Link className="hover:underline focus:underline" href="projects">
               Έργα
             </Link>
           </li>
@@ -76,7 +76,7 @@ const MenuButton = () => {
           </Link>
         </li>
         <li className="">
-          <Link className="hover:underline focus:underline" href="#">
+          <Link className="hover:underline focus:underline" href="projects">
             Έργα
           </Link>
         </li>
