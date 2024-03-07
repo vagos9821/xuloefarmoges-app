@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero2 = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row lg:align-middle lg:px-80 lg:pt-20 lg:justify-center">
-      <div className="text-black flex flex-col gap-5 p-6 lg:justify-center">
+    <div className="w-full flex flex-col xl:flex-row xl:align-middle xl:px-80 xl:pt-20 xl:justify-center">
+      <div className="text-black flex flex-col gap-5 p-6 xl:justify-center">
         <h1 className="text-3xl font-extrabold">
           Η Ονειρική Σου Κουζίνα Σε Περιμένει
         </h1>

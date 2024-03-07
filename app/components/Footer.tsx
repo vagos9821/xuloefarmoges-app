@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#333333] w-full text-white p-6 flex flex-col gap-5 lg:flex-row lg:justify-around lg:pt-10 ">
+    <div className="bg-[#333333] w-full text-white p-6 flex flex-col gap-5 xl:flex-row xl:justify-around xl:pt-10 ">
       <div>
-        <img className="lg:h-[80px]" src="logo1-white.png" alt="" />
+        <img className="xl:h-[80px]" src="logo1-white.png" alt="" />
       </div>
       <div>
         <h3 className="text-xl font-bold">Αθήνα</h3>

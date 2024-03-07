@@ -3,7 +3,7 @@ import React from "react";
 const Gallery = () => {
   return (
     <div className="p-6 flex flex-col gap-5 pb-20">
-      <h1 className="text-3xl font-extrabold text-center text-black lg:pt-20">
+      <h1 className="text-3xl font-extrabold text-center text-black xl:pt-20">
         Μερικά Από Τα Έργα Μας
       </h1>
       <div className="flex flex-wrap gap-2 justify-center align-middle max-w-[1000px]">

@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="w-full">
       {/* add this */}
       <head>
         <link rel="icon" href="/logo-white.png" />

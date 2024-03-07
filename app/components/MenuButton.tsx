@@ -11,7 +11,7 @@ const MenuButton = () => {
   };
   return (
     <div className="flex flex-col justify-center items-center ">
-      <div className="flex flex-col justify-center items-center h-auto opacity-100 lg:h-0 lg:opacity-0">
+      <div className="flex flex-col justify-center items-center h-auto opacity-100 xl:h-0 xl:opacity-0">
         <button onClick={handleClick} className="cursor-pointer w-full h-1/3">
           <span
             className={`bg-white block transition-all duration-300 ease-out
@@ -56,7 +56,7 @@ const MenuButton = () => {
         </ul>
       </div>
 
-      <ul className="h-0 opacity-0 w-0 lg:w-full lg:h-auto lg:opacity-100 flex flex-row gap-20 ">
+      <ul className="h-0 opacity-0 w-0 xl:w-full xl:h-auto xl:opacity-100 flex flex-row gap-20 ">
         <li className="">
           <Link href="/">Αρχική</Link>
         </li>

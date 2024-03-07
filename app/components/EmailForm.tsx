@@ -6,7 +6,7 @@ const EmailForm = () => {
     <form
       action="https://api.web3forms.com/submit"
       method="POST"
-      className="flex flex-col max-w-[1000px] gap-2 lg:w-1/2"
+      className="flex flex-col max-w-[1000px] gap-2 xl:w-1/2"
     >
       <input
         type="hidden"
@@ -20,7 +20,7 @@ const EmailForm = () => {
         name="name"
         placeholder="Το ονοματεπώνυμο σας"
         required
-        className="bg-[#333333] p-2 rounded-lg text-white"
+        className="bg-[#333333] p-2 rounded-xl text-white"
       ></input>
 
       <label htmlFor="number">Τηλέφωνο*</label>
@@ -29,7 +29,7 @@ const EmailForm = () => {
         name="number"
         placeholder="Το τηλέφωνο σας"
         required
-        className="bg-[#333333] p-2 rounded-lg text-white [appearance:textfield] "
+        className="bg-[#333333] p-2 rounded-xl text-white [appearance:textfield] "
       ></input>
 
       <label htmlFor="email">E-mail*</label>
@@ -38,7 +38,7 @@ const EmailForm = () => {
         name="email"
         placeholder="Το e-mail σας"
         required
-        className="bg-[#333333] p-2 rounded-lg text-white"
+        className="bg-[#333333] p-2 rounded-xl text-white"
       ></input>
 
       <label htmlFor="message">Μήνυμα*</label>
@@ -46,7 +46,7 @@ const EmailForm = () => {
         name="message"
         placeholder="Το μήνυμα σας"
         required
-        className="bg-[#333333] p-2 rounded-lg text-white"
+        className="bg-[#333333] p-2 rounded-xl text-white"
       ></textarea>
 
       <div className="h-captcha" data-captcha="true"></div>
