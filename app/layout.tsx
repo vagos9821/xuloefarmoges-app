@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Image from "logo-white.png";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,9 +26,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo-white.png" />
       </head>
-      <body className={`${inter.className} scroll-smooth`}>
+      <body className={`${inter.className} scroll-smooth `}>
         <Navbar />
+        <div className="h-[80px]"></div>
         {children}
+        <Footer />
       </body>
     </html>
   );

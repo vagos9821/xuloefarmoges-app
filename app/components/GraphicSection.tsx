@@ -2,7 +2,7 @@ import React from "react";
 
 const GraphicSection = () => {
   return (
-    <div className="flex flex-col justify-center align-middle p-6 gap-10 text-black md:px-80 md:pt-20 md:flex-row">
+    <div className="flex flex-col justify-center align-middle p-6 gap-10 text-black lg:px-80 lg:pt-20 lg:flex-row">
       <div className="flex flex-col justify-center align-middle text-center gap-2">
         <img className="h-[80px]" src="worker.svg" alt="" />
         <h1 className="text-2xl font-bold">

@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const MenuButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const MenuButton = () => {
   };
   return (
     <div className="flex flex-col justify-center items-center ">
-      <div className="flex flex-col justify-center items-center h-auto opacity-100 md:h-0 md:opacity-0">
+      <div className="flex flex-col justify-center items-center h-auto opacity-100 lg:h-0 lg:opacity-0">
         <button onClick={handleClick} className="cursor-pointer w-full h-1/3">
           <span
             className={`bg-white block transition-all duration-300 ease-out
@@ -41,32 +42,32 @@ const MenuButton = () => {
           ${isOpen ? "opacity-100 h-full" : "opacity-0 h-0"}`}
         >
           <li className="self-center">
-            <a href="#">Αρχική</a>
+            <Link href="/">Αρχική</Link>
           </li>
           <li className="self-center">
-            <a href="#">Για εμάς</a>
+            <Link href="#">Για εμάς</Link>
           </li>
           <li className="self-center">
-            <a href="#">Έργα</a>
+            <Link href="#">Έργα</Link>
           </li>
           <li className="self-center">
-            <a href="#">Επικοινωνία</a>
+            <Link href="contact-us">Επικοινωνία</Link>
           </li>
         </ul>
       </div>
 
-      <ul className="h-0 opacity-0 w-0 md:w-full md:h-auto md:opacity-100 flex flex-row gap-20 ">
+      <ul className="h-0 opacity-0 w-0 lg:w-full lg:h-auto lg:opacity-100 flex flex-row gap-20 ">
         <li className="">
-          <a href="#">Αρχική</a>
+          <Link href="/">Αρχική</Link>
         </li>
         <li className="">
-          <a href="#">Για εμάς</a>
+          <Link href="#">Για εμάς</Link>
         </li>
         <li className="">
-          <a href="#">Έργα</a>
+          <Link href="#">Έργα</Link>
         </li>
         <li className="">
-          <a href="#">Επικοινωνία</a>
+          <Link href="contact-us">Επικοινωνία</Link>
         </li>
       </ul>
     </div>

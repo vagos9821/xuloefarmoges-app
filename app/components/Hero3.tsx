@@ -2,11 +2,11 @@ import React from "react";
 
 const Hero3 = () => {
   return (
-    <div className="p-6 flex flex-col md:px-80 md:pt-20 md:flex-row">
+    <div className="p-6 flex flex-col lg:px-80 lg:pt-20 lg:flex-row">
       <div>
         <img src="workers.svg" alt="" />
       </div>
-      <div className="text-black flex flex-col gap-5 md:w-1/2 md:justify-center">
+      <div className="text-black flex flex-col gap-5 lg:w-1/2 lg:justify-center">
         <h1 className="text-3xl font-extrabold">
           Εξειδίκευση και Καινοτομία Κουζινών Που Σας Εμπνεύουν
         </h1>

@@ -4,6 +4,7 @@ import GraphicSection from "./components/GraphicSection";
 import Hero3 from "./components/Hero3";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,6 @@ export default function Home() {
       <GraphicSection />
       <Hero3 />
       <Gallery />
-      <Footer />
     </main>
   );
 }
